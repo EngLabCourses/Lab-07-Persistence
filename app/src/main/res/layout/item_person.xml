@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_xsmall">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_normal">
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/surname"
+            style="@style/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_xsmall"
+            android:layout_toEndOf="@id/name"
+            tools:text="Surname" />
+
+        <TextView
+            android:id="@+id/email"
+            style="@style/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/name"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            tools:text="name@domain.it" />
+
+
+        <TextView
+            android:id="@+id/telephone"
+            style="@style/telephone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            tools:text="333123456789" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

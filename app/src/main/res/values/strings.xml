@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Lesson 6</string>
+    <string name="insert_name">Your name</string>
+    <string name="save">Save</string>
+    <string name="read">Read</string>
+    <string name="empty_field">Field is Empty</string>
+    <string name="insert_number">Insert a number</string>
+    <string name="shared_prefs">Shared Preferences</string>
+    <string name="NaN">Not a number</string>
+    <string name="saved">Value saved!</string>
+    <string name="saving_file">Writing Files</string>
+    <string name="insert_text">Write something</string>
+    <string name="error_writing_file">Error writing into file</string>
+    <string name="error_reading_file">File not found</string>
+    <string name="insert_surname">Your Surname</string>
+    <string name="insert_email">Your e-mail</string>
+    <string name="sqlite">Using SQLite</string>
+    <string name="contentprovider">Content Provider</string>
+    <string name="insert_phone">Your Phone Number</string>
+    <string name="add">Add Person</string>
+    <string name="empty">No values saved</string>
+    <string name="search_by_name">Search by name</string>
+</resources>

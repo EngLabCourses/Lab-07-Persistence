@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="it.englab.androidcourse.lesson6.MainActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/shared_prefs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/listItem1LineHeight"
+        android:background="?android:attr/selectableItemBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/margin_normal"
+            android:text="@string/shared_prefs" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/saving_file"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/listItem1LineHeight"
+        android:background="?android:attr/selectableItemBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/margin_normal"
+            android:text="@string/saving_file" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/sqlite"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/listItem1LineHeight"
+        android:background="?android:attr/selectableItemBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/margin_normal"
+            android:text="@string/sqlite" />
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/contentprovider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/listItem1LineHeight"
+        android:background="?android:attr/selectableItemBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/margin_normal"
+            android:text="@string/contentprovider" />
+    </android.support.v7.widget.CardView>
+</LinearLayout>
